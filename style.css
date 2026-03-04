@@ -1,0 +1,64 @@
+body{
+    background-color: #403d39;
+    padding: 0;
+    margin: 0;
+}
+.title{
+    height: 250px;
+    width: 1600px;
+    background-color: #403d39;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile{
+    height:150px;
+    border-radius: 100%;
+}
+#intro{
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#icons{
+    height: 40px;
+    width: 100px;
+    background-color: #403d39;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#github-image{
+    height: 30px;
+    border-radius:100%;
+}
+.first{
+    height:300px;
+    width: 100%;
+    background-color: #403d39;
+    display: flex;
+    justify-content: space-evenly;
+}
+#box1{
+    height: 300px;
+    width: 350px;
+    background-color: #252422;
+    border-radius: 20px;
+    display: flex;
+}
+#box2{
+    height: 300px;
+    width: 350px;
+    background-color: #252422;
+    border-radius: 20px;
+    display: flex;
+    
+}
+#box3{
+    height: 300px;
+    width: 350px;
+    background-color: #252422;
+    border-radius: 20px;
+    display: flex;
+}
