@@ -48,22 +48,33 @@ body{
 #box1:hover,
 #box2:hover,
 #box3:hover{
-    transition: all 0.2s ease-in 0s;
-    border-bottom: 2px solid rgb(175, 107, 175,0.6);
-    border-top: 1px solid rgb(175, 107, 175,0.6);
-    border-left: 1px solid rgb(175, 107, 175,0.6);
-    border-right: 1px solid rgb(175, 107, 175,0.6);
+    transition: all 0.1s ease-in 0s;
+    border-bottom: 2px solid rgb(204, 192, 170,0.6);
+    border-top: 1px solid rgb(204, 192, 170,0.6);
+    border-left: 1px solid rgb(204, 192, 170,0.6);
+    border-right: 1px solid rgb(204, 192, 170,0.6);
 }
 #box1{
     height: 300px;
     width: 350px;
     background-color: #252422;
     border-radius: 20px;
-    display: flex;
     flex-direction: column;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+.topic{
+    display: flex;
+    align-items: flex-start;
 }
 #box1 h2{
+    color: rgb(236, 236, 222);
+    font-family: Arial;
     font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 5px;
 }
 
 #box2{
@@ -72,10 +83,17 @@ body{
     background-color: #252422;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
     
 }
 #box2 h2{
+    color: rgb(236, 236, 222);
+    font-family: Arial;
     font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 5px;
 }
 #box3{
     height: 300px;
@@ -83,7 +101,56 @@ body{
     background-color: #252422;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 #box3 h2{
+    color: rgb(236, 236, 222);
+    font-family: Arial;
     font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.images{
+    width: 30px;
+    height: 30px;
+}
+.programming_images{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+   
+}
+.skill{
+    height: 50px;
+    border: 0.3px solid #3a3937;
+    display: flex;
+    padding: 4px 16px;
+    
+    border-radius: 10%;
+}
+.skill p{
+    color:  rgb(236, 236, 222);
+    font-family: Arial;
+}
+.skill:hover{
+    transition: all 0.1s ease-in 0s;
+    border: 2px solid rgb(204, 192, 170,0.5);
+}
+.framework_images{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+}
+.tools_images{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
 }
